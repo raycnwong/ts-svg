@@ -6,9 +6,9 @@ https://github.com/user-attachments/assets/d2e4c4a4-4afb-47ec-be09-76954b756a80
 
 ## Packages
 
-| Package                                                                           | Version                                                                                                 | Try it out                                                                                                                                                                                                                                                                                                               |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [@ts-svg/svelte](https://github.com/chunnamwong/ts-svg/tree/main/packages/svelte) | [![npm](https://img.shields.io/npm/v/@ts-svg/svelte.svg)](https://www.npmjs.com/package/@ts-svg/svelte) | [![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/github.com/chunnamwong/ts-svg/tree/main/examples/svelte) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/chunnamwong/ts-svg/tree/main/examples/svelte) |
+| Package                                                                         | Version                                                                                                 | Try it out                                                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@ts-svg/svelte](https://github.com/raycnwong/ts-svg/tree/main/packages/svelte) | [![npm](https://img.shields.io/npm/v/@ts-svg/svelte.svg)](https://www.npmjs.com/package/@ts-svg/svelte) | [![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/github.com/raycnwong/ts-svg/tree/main/examples/svelte) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/raycnwong/ts-svg/tree/main/examples/svelte) |
 
 (Other framework adapters will be available soon)
 
@@ -128,7 +128,7 @@ Typing `<Icon.` will show all icons in autocomplete.
 
 Imported SVGs are Svelte components and accept normal props (e.g. `class`, `style`, etc.).
 
-For a complete SvelteKit example (config, generated types, and usage), see the sample setup here: [examples/svelte](https://github.com/chunnamwong/ts-svg/tree/main/examples/svelte).
+For a complete SvelteKit example (config, generated types, and usage), see the sample setup here: [examples/svelte](https://github.com/raycnwong/ts-svg/tree/main/examples/svelte).
 
 ---
 

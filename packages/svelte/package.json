@@ -9,14 +9,11 @@
 		"typescript",
 		"svelte"
 	],
-	"author": {
-		"name": "Chun Nam Wong",
-		"url": "https://chunnamwong.com"
-	},
+	"author": "Ray Wong",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/chunnamwong/ts-svg.git",
+		"url": "git+https://github.com/raycnwong/ts-svg.git",
 		"directory": "packages/svelte"
 	},
 	"type": "module",
