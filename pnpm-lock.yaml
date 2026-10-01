@@ -111,6 +111,9 @@ importers:
       svgo:
         specifier: ^4.0.0
         version: 4.0.0
+      vite:
+        specifier: '>=3.2.0'
+        version: 7.3.1(@types/node@24.10.11)
     devDependencies:
       '@types/node':
         specifier: 'catalog:'
