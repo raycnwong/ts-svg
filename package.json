@@ -8,10 +8,13 @@
 		"format:check": "prettier --check . \"!examples\"",
 		"lint": "eslint . --ignore-pattern \"examples/**/*\" --max-warnings=0",
 		"lint:fix": "eslint . --ignore-pattern \"examples/**/*\" --fix",
-		"test": "pnpm exec playwright test"
+		"test": "pnpm exec playwright test",
+		"changeset": "changeset",
+		"version-packages": "changeset version",
+		"release": "changeset publish"
 	},
-	"engine": {
-		"node": ">=20.1.0"
+	"engines": {
+		"node": "^22.11.0 || ^24.0.0 || >=26.0.0"
 	},
 	"workspaces": [
 		"packages/*"
@@ -19,6 +22,8 @@
 	"devDependencies": {
 		"@playwright/test": "^1.58.2",
 		"@types/node": "catalog:",
+		"@changesets/changelog-github": "^1.0.1",
+		"@changesets/cli": "^3.0.3",
 		"eslint": "^10.0.0",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1"
