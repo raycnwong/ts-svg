@@ -45,7 +45,7 @@ declare module '*.svg?svelte' {
 	export default component;
 }
 `,
-		async transform(_code, id, options) {
+		async transform(_code, id, transformOptions) {
 			if (!id.endsWith('.svg?svelte')) {
 				return;
 			}
@@ -57,7 +57,7 @@ declare module '*.svg?svelte' {
 			);
 			const componentCode = optimizedSvgSource.replace(/<svg([^>]*)>/, '<svg$1 {...$$$$props}>');
 			const component = compile(componentCode, {
-				generate: options?.ssr ? 'server' : undefined,
+				generate: transformOptions?.ssr ? 'server' : undefined,
 			});
 			return {
 				code: component.js.code,
